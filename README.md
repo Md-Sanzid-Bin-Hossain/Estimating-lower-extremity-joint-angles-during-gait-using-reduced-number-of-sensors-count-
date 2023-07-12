@@ -1,6 +1,17 @@
 # Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-
 Estimating lower extremity joint angles during gait using reduced number of sensors count via deep learning
 
+### Data collection Procedures
+![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/39802365-3635-4473-a588-87e8ae996c42)
+
+### Kinematics-Net
+![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/d472c3bd-6abb-4e48-8e48-c0d29fb48526)
+
+
+### Fundamental Units
+![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/344c79b4-1541-465c-839b-88327d3b615d)
+
+
 ## Download the files from the following google drive link
 
 A detailed protocol of the data collection can be found in Moniruzzaman et. al. {\cite{moniruzzaman2021wearable}}.
