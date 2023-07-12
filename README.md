@@ -3,9 +3,13 @@ Estimating lower extremity joint angles during gait using reduced number of sens
 
 ## Download the files from the following google drive link
 
+A detailed protocol of the data collection can be found in Moniruzzaman et. al. 
+
+
 https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sharing
 
 ## If you use the dataset in your research, please cite the following paper:
+
 
 @inproceedings{hossain2022estimating,
   title={Estimating lower extremity joint angles during gait using reduced number of sensors count via deep learning},
