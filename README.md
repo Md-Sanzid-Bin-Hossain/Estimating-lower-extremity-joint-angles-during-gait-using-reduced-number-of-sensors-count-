@@ -1,7 +1,9 @@
 # Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-
 Estimating lower extremity joint angles during gait using reduced number of sensors count via deep learning
 
-### Data collection Procedures
+In this paper, we proposed a deep learning model Kinematics-Net to predict hip, knee, and ankle joint angle using foot mounted IMU sensors
+
+### Data Collection Procedures
 ![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/39802365-3635-4473-a588-87e8ae996c42)
 
 ### Kinematics-Net
