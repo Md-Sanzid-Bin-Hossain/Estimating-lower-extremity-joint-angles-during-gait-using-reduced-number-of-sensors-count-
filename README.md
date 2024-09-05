@@ -1,30 +1,45 @@
-# Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-
-Estimating lower extremity joint angles during gait using reduced number of sensors count via deep learning
+# Estimating Lower Extremity Joint Angles During Gait Using Reduced Number of Sensors Count Via Deep Learning
+By Md Sanzid Bin Hossain, Hwan Choi, Zhishan Guo
 
-In this paper, we proposed a deep learning model Kinematics-Net to predict hip, knee, and ankle joint angles using foot-mounted IMU sensors. In the "ICDIP_Kinematics_Net.ipynb" notebook, we provided the models used in the paper. The provided dataset in google drive is slightly different than the one implemented in the paper. It has additional trials and we did not segment any of the gait cycles. We rather take all the walking strategies including turning.
+## Summary
 
-## Download the files from the following google drive link
+This repository contains the implementation of a deep learning framework for estimating lower extremity joint angles during gait using only two Inertial Measurement Unit (IMU) sensors mounted on the shoes. The method is designed to work across four walking conditions: treadmill, overground, stair, and slope, addressing the limitations of traditional lab-based motion capture systems.
 
-A detailed protocol of the data collection can be found in Moniruzzaman et. al. {\cite{moniruzzaman2021wearable}}.
-
-
-https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sharing
-
-
-### Data Collection Procedures
-![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/39802365-3635-4473-a588-87e8ae996c42)
+### Experimental Setup
+![image](Figures/Experimental_setup.png)
 
 ### Kinematics-Net
-![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/d472c3bd-6abb-4e48-8e48-c0d29fb48526)
+![image](Figures/Kinematics-Net.png)
 
 
 ### Fundamental Units
-![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/344c79b4-1541-465c-839b-88327d3b615d)
+![image](Figures/fundamental_unit.png)
+
+## Key Features
+
+- **Reduced Sensor Setup**: Unlike traditional approaches that require multiple sensors on various body segments, this method estimates joint angles with only two shoe-mounted IMUs, improving comfort and practicality for daily living.
+- **Deep Learning Model**: The system leverages Gated Recurrent Units (GRU) and both 1D and 2D convolutional layers to create multiple sub-networks. The final model is constructed by averaging the outputs from these sub-networks in an end-to-end manner.
+- **Multiple Walking Conditions**: The model is trained and evaluated under four different walking conditions: treadmill, overground, stair, and slope, making it robust and versatile for real-world applications.
+- **Improved Accuracy**: The proposed method achieves up to **32.96% improvement** in Root Mean Square Error (RMSE) for joint angle prediction compared to baseline methods.
+
+## Results
+
+The extensive evaluations demonstrate that the proposed model significantly outperforms baseline approaches, making it a suitable solution for real-world applications in biomechanics and clinical gait analysis.
+
+
+## Dataset
+
+-Data for original Implementation with Keras Tensorflow: [Google Drive Link](https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sharing](https://drive.google.com/drive/folders/17uM_eZ8sstzeKAWtlEkhg06HDrRYaPCR?usp=sharing)
+-Data for modified implementation in Pytorch: [Google Drive Link](https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sharing)
+
+
+## Codes
+-[Code](ICDIP_Kinematics_Tensorflow_Keras_Implementation.py) for original implementation in Tensorflow Keras
+-[Code](ICDIP_Kinematics_Net.ipynb) for modified implementation in Pytorch
 
 
 ## Citations
 If you use the dataset in your research, please cite the following paper:
-
 
 ``` bibtex
 @inproceedings{hossain2022estimating,
