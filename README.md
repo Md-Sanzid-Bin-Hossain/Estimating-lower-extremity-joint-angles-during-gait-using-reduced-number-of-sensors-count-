@@ -36,7 +36,7 @@ If you use the dataset in your research, please cite the following paper:
   year={2022},
   organization={SPIE}
 }
-``` bibtex
+
 @article{moniruzzaman2021wearable,
   title={Wearable Motion Capture: Reconstructing and Predicting 3D Human Poses from Wearable Sensors},
   author={Moniruzzaman, Md and Yin, Zhaozheng and Hossain, Md Sanzid Bin and Guo, Zhishan and Choi, Hwan},
