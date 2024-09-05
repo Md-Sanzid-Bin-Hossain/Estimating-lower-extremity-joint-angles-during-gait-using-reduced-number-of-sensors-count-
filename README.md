@@ -22,10 +22,11 @@ https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sha
 ![image](https://github.com/Sanzid-Priam/Estimating-lower-extremity-joint-angles-during-gait-using-reduced-number-of-sensors-count-/assets/81487150/344c79b4-1541-465c-839b-88327d3b615d)
 
 
+## Citations
+If you use the dataset in your research, please cite the following paper:
 
-## If you use the dataset in your research, please cite the following paper:
 
-
+``` bibtex
 @inproceedings{hossain2022estimating,
   title={Estimating lower extremity joint angles during gait using reduced number of sensors count via deep learning},
   author={Hossain, Md Sanzid Bin and Choi, Hwan and Guo, Zhishan},
@@ -35,7 +36,7 @@ https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sha
   year={2022},
   organization={SPIE}
 }
-
+``` bibtex
 @article{moniruzzaman2021wearable,
   title={Wearable Motion Capture: Reconstructing and Predicting 3D Human Poses from Wearable Sensors},
   author={Moniruzzaman, Md and Yin, Zhaozheng and Hossain, Md Sanzid Bin and Guo, Zhishan and Choi, Hwan},
