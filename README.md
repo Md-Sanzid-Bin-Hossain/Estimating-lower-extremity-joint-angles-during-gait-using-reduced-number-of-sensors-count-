@@ -6,14 +6,15 @@ By Md Sanzid Bin Hossain, Hwan Choi, Zhishan Guo
 This repository contains the implementation of a deep learning framework for estimating lower extremity joint angles during gait using only two Inertial Measurement Unit (IMU) sensors mounted on the shoes. The method is designed to work across four walking conditions: treadmill, overground, stair, and slope, addressing the limitations of traditional lab-based motion capture systems.
 
 ### Experimental Setup
-![image](Figures/Experimental_setup.png)
+
+<img src="Figures/Experimental_setup.png" alt="Experimental Setup" width="500"/>
 
 ### Kinematics-Net
-![image](Figures/Kinematics-Net.png)
-
+<img src="Figures/Kinematics-Net.png" alt="Kinematics-Net" width="500"/>
 
 ### Fundamental Units
-![image](Figures/fundamental_unit.png)
+<img src="Figures/fundamental_unit.png" alt="Fundamental Units" width="500"/>
+
 
 ## Key Features
 
@@ -29,13 +30,13 @@ The extensive evaluations demonstrate that the proposed model significantly outp
 
 ## Dataset
 
--Data for original Implementation with Keras Tensorflow: [Google Drive Link](https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sharing](https://drive.google.com/drive/folders/17uM_eZ8sstzeKAWtlEkhg06HDrRYaPCR?usp=sharing)
--Data for modified implementation in Pytorch: [Google Drive Link](https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sharing)
+- Data for original Implementation with Keras Tensorflow: [Google Drive Link](https://drive.google.com/drive/folders/17uM_eZ8sstzeKAWtlEkhg06HDrRYaPCR?usp=sharing)
+- Data for modified implementation in Pytorch: [Google Drive Link](https://drive.google.com/drive/folders/1nNotE2vVi0zEVXPmYzSC3NVl2aLD63Ob?usp=sharing)
 
 
 ## Codes
--[Code](ICDIP_Kinematics_Tensorflow_Keras_Implementation.py) for original implementation in Tensorflow Keras
--[Code](ICDIP_Kinematics_Net.ipynb) for modified implementation in Pytorch
+- [Code](ICDIP_Kinematics_Tensorflow_Keras_Implementation.py) for original implementation in Tensorflow Keras
+- [Code](ICDIP_Kinematics_Net.ipynb) for modified implementation in Pytorch
 
 
 ## Citations
